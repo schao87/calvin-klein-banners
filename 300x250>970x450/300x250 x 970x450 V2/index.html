@@ -1,0 +1,70 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta data-template-name="Template_H5T_expanding-300x250-image">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script type="text/javascript" src="https://s0.2mdn.net/ads/studio/Enabler.js"></script>
+</head>
+<body>
+    <div id="main-container">
+      <!-- Collapsed Conent -->
+      
+      <div id="collapsed-state">
+        <!-- <div id="collapsed-exit"></div> -->
+        <a href="javascript:window.open(window.clickTag)">
+         <div class="feature-collapsed" id="feature-collapsed">
+            <div id="preloadWrap">
+              <div id="left">
+                <img src="left.jpg">
+              </div>
+              <div id="right">
+                <img src="right.jpg">
+              </div>
+            </div>
+            <div id="click_screen">
+              <div id="container">
+                  <div id="f1_txt"><img src="f1_txt.png"></div>
+                  <div id="left">
+                    <img src="left.jpg">
+                  </div>
+                  <div id="right">
+                    <img src="right.jpg">
+                </div>
+              </div>
+            </div>
+          </div>
+        </a>
+        <div id="expand-button" class="button">
+            <div id="shop"><img src="shop.jpg"></div>
+        </div>
+      </div>
+      
+      <!-- Expand Content -->
+      <div id="expanded-state">
+        <!-- <div id="expanded-exit"></div> -->
+        <div id="collapse-button" class="button"><div id="closeBtn"></div></div>
+        <a href="javascript:window.open(window.clickTag)">
+          <div class="feature-expanded" id="feature-expanded">
+            <div id="richContainer">
+              
+                <div id="richMedia">
+                  <iframe width="800" height="450" id="player" src="https://www.youtube.com/embed/3XJh9n8K3XU" frameborder="0" allowfullscreen></iframe>
+                </div>
+            
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+    <script>
+  Enabler.setExpandingPixelOffsets(0, 0, 970, 450);
+    </script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.11.4/plugins/CSSPlugin.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.11.4/TweenLite.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.11.4/easing/EasePack.min.js"></script>
+    <script type="text/javascript" src="Animation.js"></script> 
+  <script src="logic.js"></script>
+</body>
+</html>

@@ -1,0 +1,101 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#container{
+	position: absolute;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	width: 300px;
+	height: 250px;
+	border:solid;
+	border-color:black;
+	border-width:1px;
+	overflow:hidden;
+	display: none;
+}
+#preload,#preloadWrap{
+	position: absolute;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	width: 300px;
+	height: 250px;
+	border:solid;
+	border-color:black;
+	border-width:1px;
+	overflow:hidden;
+}
+body{
+	margin: 0px;
+}
+#click_screen {
+	width: 100%;
+	height: 100%;
+	cursor: pointer;
+}
+#left{
+	position: absolute;
+	left: 0;
+	top: -500px;
+	width: 150px;
+	height: 750px;
+}
+#right{
+	position: absolute;
+	right: 0;
+	width: 150px;
+	height: 750px;
+}
+#shop, #shop_rollover{
+	opacity: 0;
+	position: absolute;
+	z-index: 10;
+}
+#shop{
+	bottom: 25px;
+	left: 97px;
+}
+#f1_txt{
+	position: absolute;
+	z-index: 3;
+	opacity: 0;
+}
+#richContainer{
+	position: absolute;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	width: 970px;
+	height: 450px;
+	border:solid;
+	border-color:black;
+	border-width:1px;
+	overflow:hidden;
+	display: none;
+	cursor: pointer;
+	background-image: url("richMedia.jpg");
+}
+#richMedia{
+	height: 450px;
+	width: 800px;
+	position: absolute;
+	cursor: pointer;
+	display: block;
+	padding-left: 144px;
+	z-index: 10;
+}
+#closeBtn{
+	position: absolute;
+	z-index: 10;
+	top: 0;
+	right: 0;
+	height: 25px;
+	width: 25px;
+	cursor: pointer;
+}
+#rich_rollover{
+	opacity: 0;
+	position: absolute;
+	z-index: 2;
+}

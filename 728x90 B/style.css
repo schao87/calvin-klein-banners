@@ -1,0 +1,62 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#container{
+	position: absolute;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	width: 728px;
+	height: 90px;
+	border:solid;
+	border-color:black;
+	border-width:1px;
+	overflow:hidden;
+	display: none;
+}
+#preload,#preloadWrap{
+	position: absolute;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	width: 728px;
+	height: 90px;
+	border:solid;
+	border-color:black;
+	border-width:1px;
+	overflow:hidden;
+}
+body{
+	margin: 0px;
+}
+#click_screen {
+	width: 100%;
+	height: 100%;
+	cursor: pointer;
+}
+#left{
+	position: absolute;
+	left: 0;
+	top: -342px;
+	width: 364px;
+	height: 430px;
+}
+#right{
+	position: absolute;
+	right: 0;
+	width: 364px;
+	height: 430px;
+}
+#the2{
+	position: absolute;
+	z-index: 3;
+}
+#shop, #bottle, #hashtag, #shop_rollover{
+	opacity: 0;
+	position: absolute;
+}
+#f1_txt{
+	position: absolute;
+	z-index: 3;
+	opacity: 0;
+}
